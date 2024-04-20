@@ -9,7 +9,7 @@ pipeline {
         
         stage("Git Checkout"){
             steps{
-                git branch: 'master', changelog: false, poll: false, url: 'https://github.com/jyothi58/nodejs-webapp.git'
+                git branch: 'main', changelog: false, poll: false, url: 'https://github.com/jyothi58/nodejs-webapp.git'
             }
         }
         
